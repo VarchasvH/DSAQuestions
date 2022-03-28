@@ -1,6 +1,5 @@
-package Backtracking;
-
 public class NKnightsProblem {
+
     public static void main(String[] args) {
     int n = 4;
     boolean board[][] = new boolean[n][n];
