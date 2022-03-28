@@ -1,12 +1,10 @@
-package Backtracking;
-
 public class NQueensProblem {
+
     public static void main(String[] args) {
         int n = 4;
         boolean[][] board = new boolean[n][n]; // originally all the elements will be true
         System.out.println(queens(board, 0));
     }
-
     // Defining the function
     static int queens(boolean[][] board, int row){
         if(row == board.length){
@@ -51,8 +49,6 @@ public class NQueensProblem {
         }
         return true;
     }
-
-
     // Function used to display the board
     private static void display(boolean[][] board) {
         for (boolean[] row : board){ // traversing the rows
@@ -67,5 +63,5 @@ public class NQueensProblem {
             System.out.println(); // new line
         }
     }
-
 }
+
